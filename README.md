@@ -1,3 +1,5 @@
+<!-- Backend Start -->
+
 # Node API 1 Project Starter Code
 
 ## Topics
@@ -29,7 +31,7 @@ Add the code necessary to create a Web API and implement the following _endpoint
 | GET    | /api/users     | Returns an array users.                                                                                |
 | GET    | /api/users/:id | Returns the user object with the specified `id`.                                                       |
 | DELETE | /api/users/:id | Removes the user with the specified `id` and returns the deleted user.                                 |
-| PUT    | /api/users/:id | Updates the user with the specified `id` using data from the `request body`. Returns the modified user |
+| PATCH  | /api/users/:id | Updates the user with the specified `id` using data from the `request body`. Returns the modified user |
 
 #### User Schema
 
@@ -127,3 +129,5 @@ Create a new React application and connect it to your server:
 - add a delete button to each displayed user that will remove it from the server.
 - add forms to add and update data.
 - Style the list of users however you see fit.
+
+<!-- Initial -->
